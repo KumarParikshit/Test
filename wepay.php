@@ -25,7 +25,7 @@ $uid = htmlspecialchars(mysqli_real_escape_string($conn, $_GET['uid']));
 $urlInfo = htmlspecialchars(mysqli_real_escape_string($conn, $_GET['urlInfo']));
 
 $notify_url = "https://91appy.in/pay/lgwebhook.php";
-$return_url = "https://91appy.in/pay/ok.php";
+$return_url = "https://91appy.in/";
 
 // ✅ **Build Parameters for Signature**
 $params = [
